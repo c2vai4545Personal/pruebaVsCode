@@ -2,4 +2,7 @@ print("Hello world")
 
 words = 'Dale gas!!'
 
-print(words)
+hablar(words)
+
+def hablar(word):
+    print(word)
