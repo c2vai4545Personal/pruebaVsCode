@@ -19,7 +19,7 @@ class Persona():
         print(dialogo)
 
     def caminar(self):
-        primt("estoy caminando")
+        return "estoy caminando"
 
 class Informatico(Persona):
     def __init__(super):
@@ -42,9 +42,10 @@ class BackEndDev(Informatico):
         self.frameworks.append(framework)
 
     def programar(self):
-        print("Compilando\n")
-        print("...\n")
-        print("Compilado con exito")
+        return """Compilando\n
+        ...\n
+        Compilado con exito
+        """
 
 
 class Support(Informatico):
@@ -58,4 +59,4 @@ class Support(Informatico):
         self.os.append(newOs)
 
     def repararServer(self):
-        print('Realizando Reparacion')
+        return 'Realizando Reparacion'
