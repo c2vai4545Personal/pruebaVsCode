@@ -22,8 +22,8 @@ class Persona():
         primt("estoy caminando")
 
 class Informatico(Persona):
-    __init__(super)
-    self.lenguajes = []
+    def __init__(super):
+        self.lenguajes = []
 
     def setLenguaje(self, lenguaje):
         self.lenguajes.append(lenguaje)
@@ -32,8 +32,8 @@ class Informatico(Persona):
         return self.lenguajes
     
 class BackEndDev(Informatico):
-    __init__(super)
-    self.frameworks = []
+    def __init__(super):
+        self.frameworks = []
 
     def getFrameworks(self):
         return self.frameworks
@@ -48,8 +48,8 @@ class BackEndDev(Informatico):
 
 
 class Support(Informatico):
-    __init__(super)
-    self.os = []
+    def __init__(super):
+        self.os = []
 
     def getOs(self):
         return self.os
